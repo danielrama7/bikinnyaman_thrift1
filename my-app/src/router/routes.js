@@ -8,6 +8,13 @@ import Tentang_Kami from "../pages/Tentang_Kami";
 import Kontak_Kami from "../pages/Kontak_Kami";
 import Ulasan from "../pages/Ulasan";
 import Home_Page from "../pages/Home_Page";
+import Product from "../pages/Product";
+import Keranjang_Belanja from "../pages/Keranjang_Belanja";
+import Wishlist from "../pages/Wishlist";
+import Product_Detail from "../pages/Product_Detail";
+import FAQ from "../pages/FAQ";
+import Informasi_Pembelian from "../pages/Informasi_Pembelian";
+import Informasi_Akun from "../pages/Informasi_Akun";
 
 export const routes = [
   {
@@ -90,4 +97,60 @@ export const routes = [
     exact: true,
     component: Home_Page,
   },
+  {
+    name: "Product",
+    path: () => {
+      return "/product";
+    },
+    exact: true,
+    component: Product,
+  },
+  {
+    name: "Keranjang_Belanja",
+    path: () => {
+      return "/keranjangBelanja";
+    },
+    exact: true,
+    component: Keranjang_Belanja,
+  },
+  {
+    name: "Wishlist",
+    path: () => {
+      return "/wishlist";
+    },
+    exact: true,
+    component: Wishlist,
+  },
+  {
+    name: "Product_Detail",
+    path: () => {
+      return "/productDetail";
+    },
+    exact: true,
+    component: Product_Detail,
+  },
+  {
+    name: "FAQ",
+    path: () => {
+      return "/faq";
+    },
+    exact: true,
+    component: FAQ,
+  },
+  {
+    name: "Informasi_Pembelian",
+    path: () => {
+      return "/informasiPembelian";
+    },
+    exact: true,
+    component: Informasi_Pembelian,
+  },
+  // {
+  //   name: "Informasi_Akun",
+  //   path: () => {
+  //     return "/informasiAkun";
+  //   },
+  //   exact: true,
+  //   component: Informasi_Akun,
+  // },
 ];

@@ -3,12 +3,12 @@ import React from "react";
 function Tentang_Kami() {
   return (
     <div className="h-screen bg-indigo-50 justify-center pt-20 px-12">
-      <h1 className="text-center text-5xl text-gray-800 font-bold font-sans">
+      <h1 className="text-center text-5xl text-gray-800 font-bold">
         Tentang Kami
       </h1>
-      <div className="w-full px-20 pt-10 font-sans mt-6 text-2xl text-center">
+      <div className="w-full px-20 pt-10 mt-6 text-2xl text-center">
         <p className="mb-2">
-          Bikinnyamam_thrift adalah e-commerce yang menjual berbagai jenis
+          Bikinnyaman_thrift adalah e-commerce yang menjual berbagai jenis
           pakaian second hand layak pakai yang akan membuat penampilan para
           wanita dan pria lebih bergaya.
         </p>

@@ -6,7 +6,7 @@ function Login() {
     <div class="h-screen bg-indigo-50 flex justify-center">
       <div class="lg:w-2/6 md:w-1/2 w-2/3 pt-20">
         <form class="bg-white p-10 rounded-lg shadow-lg min-w-full">
-          <h1 class="text-center text-2xl mb-6 text-gray-800 font-bold font-sans">
+          <h1 class="text-center text-2xl mb-6 text-gray-800 font-bold">
             Masuk
           </h1>
           <div>
@@ -41,17 +41,14 @@ function Login() {
           </div>
           <button
             type="submit"
-            class="w-full mt-6 bg-[#282517] rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans"
+            class="w-full mt-6 bg-[#282517] rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold"
           >
             Masuk
           </button>
           <div class="flex flex-row pt-3 text-[14px]">
             <p>Belum punya akun?</p>
             <NavLink to="/register">
-              <button
-                type="submit"
-                class="text-gray-800 font-bold font-sans pl-1"
-              >
+              <button type="submit" class="text-gray-800 font-bold pl-1">
                 Daftar
               </button>
             </NavLink>

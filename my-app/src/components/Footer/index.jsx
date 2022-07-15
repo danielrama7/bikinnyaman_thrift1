@@ -29,16 +29,16 @@ function Footer() {
                       </a>
                     </li>
                     <li class="mt-6">
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="http://localhost:3000/syaratKetentuan"
+                      <NavLink
+                        className="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
+                        to="/syaratKetentuan"
                       >
                         Syarat & Ketentuan
-                      </a>
+                      </NavLink>
                     </li>
                     <li class="mt-6">
                       <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-50 dark:text-gray-50"
                         href="http://localhost:3000/kebijakanPrivasi"
                       >
                         Kebijakan Privasi

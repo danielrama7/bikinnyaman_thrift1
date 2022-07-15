@@ -3,15 +3,13 @@ import React from "react";
 function Cara_Pemesanan() {
   return (
     <div className="h-screen bg-indigo-50 justify-center pt-20 px-20">
-      <h1 className="text-center text-5xl text-gray-800 font-bold font-sans">
+      <h1 className="text-center text-5xl text-gray-800 font-bold">
         Cara Pemesanan
       </h1>
-      <div class="w-full pl-20 pt-10 font-sans mt-6 text-2xl">
+      <div class="w-full pl-20 pt-10 mt-6 text-xl">
         <ul>
           <li class="mb-5">
-            <span class="focus:outline-none focus:underline text-3xl leading-none">
-              Langkah - langkah:
-            </span>
+            <span class="text-2xl">Langkah - langkah:</span>
           </li>
           <li>1. Pertama cari produk yang akan dibeli</li>
           <li class="mt-2">2. Tambahkan produk ke keranjang belanja</li>

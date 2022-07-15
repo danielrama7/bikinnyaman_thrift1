@@ -3,10 +3,10 @@ import React from "react";
 function Kebijakan_Pengembalian() {
   return (
     <div className="h-screen bg-indigo-50 justify-center pt-20 px-12">
-      <h1 className="text-center text-5xl text-gray-800 font-bold font-sans">
+      <h1 className="text-center text-5xl text-gray-800 font-bold">
         Kebijakan Pengembalian
       </h1>
-      <div className="w-full px-20 pt-10 font-sans mt-6 text-2xl">
+      <div className="w-full px-20 pt-10 mt-6 text-2xl">
         <p className="mb-5">
           Pengembalian produk dapat dilakukan dengan langsung menghubungi pihak
           kamu melalui WhatsApp kami.
