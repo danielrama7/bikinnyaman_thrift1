@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <div>
+    <div className="">
       <footer id="footer" class="relative z-50 bg-[#282517]">
         <div
           tabindex="0"

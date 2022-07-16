@@ -58,7 +58,7 @@ function FAQ() {
                 />
               </div>
             </div>
-            <div className=" flex w-full justify-end">
+            <div className="flex w-full justify-end">
               <button className="bg-[#F6F6F6] p-1 w-5/6">Kirim</button>
             </div>
           </div>

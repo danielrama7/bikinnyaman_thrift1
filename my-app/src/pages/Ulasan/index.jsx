@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import jaket from "../../img/ulasan.jpg";
 import { Rating } from "react-simple-star-rating";
+import product1 from "../../img/product1.jpg";
 
 function Ulasan() {
   const [rating, setRating] = useState(0); // initial rating value
@@ -11,46 +12,73 @@ function Ulasan() {
     // other logic
   };
   return (
-    <div className="h-screen bg-indigo-50 justify-center pt-20 px-24">
-      <h1 className="text-5xl text-gray-800 font-bold">
-        Sweater / Crewneck Pastel Mint Blue GAP
-      </h1>
-      <div>
-        <Rating onClick={handleRating} ratingValue={rating} />
+    <div className="bg-[#F6F6F6] pb-10">
+      <div className="flex bg-white h-[304px] items-center justify-center">
+        <img src={product1} alt="" className="object-cover h-full w-full" />
+        <h1 className="text-5xl font-bold absolute text-white">
+          Menulis Ulasan
+        </h1>
       </div>
-      <div className="flex justify-between mt-16 bg-blue-100">
-        <div className="justify-start w-3/5 bg-red-500">
-          <p className="text-4xl text-gray-800 font-bold">Menulis Ulasan</p>
-          <div className="grid space-y-5 mt-5">
-            <div className="flex space-x-36">
-              <p className="text-3xl text-gray-800 font-bold">Rating</p>
-              <div className="flex space-x-2">
-                <div>
-                  <i className="fa-solid fa-star-sharp"></i>
+      <div className="mx-20 mt-12 p-3">
+        <div className="bg-white p-10">
+          <h1 className="text-3xl font-bold mb-4">
+            Sweater / Crewneck Pastel Mint Blue GAP
+          </h1>
+          <div className="flex items-center justify-between">
+            <div className="w-2/3 mr-6">
+              <div className="w-full h-80 border-2 py-4 px-6">
+                <h1 className="text-2xl font-bold mb-4">Menulis Ulasan</h1>
+                <div className="flex mb-4 items-center">
+                  <div className="w-1/5">
+                    <h1>Rating</h1>
+                  </div>
+                  <div className="w-4/5">
+                    <Rating
+                      onClick={handleRating}
+                      ratingValue={rating}
+                      size={25}
+                    />
+                  </div>
                 </div>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp"></i>
-                <i className="fa-solid fa-star-sharp text-[200px]"></i>
-                <i className="fa-solid fa-bag-shopping text-[200px]"></i>
-                <i className="fa-solid fa-star-sharp"></i>
+                <div className="flex mb-4 items-center">
+                  <div className="w-1/5">
+                    <h1>Judul</h1>
+                  </div>
+                  <div className="w-4/5">
+                    <input
+                      type="text"
+                      placeholder="Judul Ulasan"
+                      className="w-full h-full p-1 px-2 border rounded"
+                    />
+                  </div>
+                </div>
+                <div className="flex mb-4 ">
+                  <div className="w-1/5">
+                    <h1>Ulasan</h1>
+                  </div>
+                  <div className="w-4/5 h-20">
+                    <textarea
+                      id="ulasan"
+                      placeholder="Ulasan"
+                      className="w-full h-full p-1 px-2 border rounded"
+                    ></textarea>
+                  </div>
+                </div>
+                <div>
+                  <button className="bg-[#d0cba0] font-bold text-white justif-center w-full p-1 border rounded">
+                    Kirim
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="flex space-x-40">
-              <p className="text-3xl text-gray-800 font-bold">Judul</p>
-              <div className="w-1/2">
-                <input type="text" className="w-full h-12" />
-              </div>
-            </div>
-            <div className="flex space-x-24">
-              <p className="text-3xl text-gray-800 font-bold">Komentar</p>
-              <div className="w-1/2">
-                <input type="text" className="w-full h-48 " />
-              </div>
+            <div className="flex bg-red-100">
+              <img
+                src={jaket}
+                alt="Ulasan"
+                className="object-cover h-80 w-80"
+              />
             </div>
           </div>
-        </div>
-        <div className="bg-green-500">
-          <img src={jaket} alt="Ulasan" className="object-cover h-96 w-96" />
         </div>
       </div>
     </div>
