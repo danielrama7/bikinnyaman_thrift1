@@ -1,6 +1,6 @@
 import product1 from "../../img/product1.jpg";
 import React from "react";
-import Footer from "../../components/Footer";
+import { NavLink } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 
@@ -15,23 +15,22 @@ function Home_Page() {
       <div className="mx-20 my-12 p-3">
         <div className="flex space-x-12 mb-16">
           <div className="grid space-y-12">
-            <div className="bg-red-100 h-60 w-72">vvvvvv</div>
-            <div className="bg-red-100 h-60 w-72">zzzzzz</div>
+            <div className="bg-red-100 h-60 w-72">Pria</div>
+            <div className="bg-red-100 h-60 w-72">Wanita</div>
           </div>
-          {/* <div className="bg-blue-100 w-full">sddddd</div> */}
           <Swiper
             navigation={true}
             modules={[Navigation]}
             className="mySwiper sectionThumbnail"
           >
             <SwiperSlide>
-              <div className="bg-blue-100 w-full h-full">sddddd</div>
+              <div className="bg-blue-100 w-full h-full">Carousel 1</div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-blue-100 w-full h-full">sadsadd</div>
+              <div className="bg-blue-100 w-full h-full">Carousel 2</div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-blue-100 w-full h-full">sdafsgdddd</div>
+              <div className="bg-blue-100 w-full h-full">Carousel 3</div>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -50,12 +49,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
-                <div className="flex justify-between ">
+                <div className="flex justify-between">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -64,12 +62,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -78,12 +75,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -92,12 +88,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -106,12 +101,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -120,12 +114,11 @@ function Home_Page() {
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
-                <div className="mt-4">
-                  <p>PAKAIAN WANITA WAWWW</p>
+                <div className="mt-4 text-left">
+                  <p>Sweater Illionis</p>
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -161,7 +154,6 @@ function Home_Page() {
           </Swiper>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

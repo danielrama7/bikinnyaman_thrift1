@@ -7,14 +7,14 @@ const dataDummy = [
     warna: "Hitam",
     ukuran: "small",
     harga: 10000,
-    jumlah: 3,
+    jumlah: 1,
   },
   {
     nama: "Sweater Illionis",
     warna: "Hitam",
     ukuran: "small",
     harga: 10000,
-    jumlah: 3,
+    jumlah: 1,
   },
 ];
 

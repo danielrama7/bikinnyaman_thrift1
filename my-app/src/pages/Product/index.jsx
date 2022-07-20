@@ -1,13 +1,14 @@
 import React from "react";
 import product1 from "../../img/product1.jpg";
 import Dropdown from "./dropdown";
+import { NavLink } from "react-router-dom";
 
 function Product() {
   return (
     <div className="bg-[#F6F6F6]">
       <div className="flex bg-white h-[304px] items-center justify-center">
         <img src={product1} alt="" className="object-cover h-full w-full" />
-        <h1 className="text-5xl font-bold absolute">Produk Kami</h1>
+        <h1 className="text-5xl font-bold absolute text-white">Produk Kami</h1>
       </div>
       <div className="mx-20 mt-12 p-3">
         <div className="flex space-x-7">
@@ -35,6 +36,19 @@ function Product() {
               <Dropdown color="blue" />
             </div>
             <div className="grid grid-cols-3 gap-7">
+              <NavLink to="/productDetail">
+                <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+                  <div className="h-64">
+                    <img src={product1} alt="" className="object-cover" />
+                  </div>
+                  <div className="">
+                    <p>Sweater Illinois</p>
+                  </div>
+                  <div className="flex justify-between ">
+                    <p className="font-bold">Rp. 50.000</p>
+                  </div>
+                </div>
+              </NavLink>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
@@ -44,7 +58,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -56,7 +69,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -68,7 +80,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -80,7 +91,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -92,7 +102,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -104,7 +113,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -116,7 +124,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
               <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
@@ -128,19 +135,6 @@ function Product() {
                 </div>
                 <div className="flex justify-between ">
                   <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
-                </div>
-              </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
-                <div className="h-64">
-                  <img src={product1} alt="" className="object-cover" />
-                </div>
-                <div className="">
-                  <p>Sweater Illinois</p>
-                </div>
-                <div className="flex justify-between ">
-                  <p className="font-bold">Rp. 50.000</p>
-                  <p>*****</p>
                 </div>
               </div>
             </div>
@@ -168,7 +162,7 @@ function Product() {
                     </li>
                     <li class="page-item active">
                       <a
-                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-blue-600 outline-none transition-all duration-300 rounded text-white hover:text-white hover:bg-blue-600 shadow-md focus:shadow-md"
+                        class="page-link relative block py-1.5 px-3 rounded border-0 bg-[#d0cba0] outline-none transition-all duration-300 rounded text-white hover:text-white hover:bg-blue-600 shadow-md focus:shadow-md"
                         href="#"
                       >
                         2 <span class="visually-hidden"></span>

@@ -30,7 +30,7 @@ function Ubah_Informasi_Akun() {
       <div className="flex mb-4 items-center">
         <div className="w-1/4">Provinsi</div>
         <div className="w-3/4">
-          <select
+          {/* <select
             name="provinsi"
             id="provinsi"
             placeholder="Provinsi"
@@ -38,7 +38,12 @@ function Ubah_Informasi_Akun() {
           >
             <option value="jawa barat">Jawa Barat</option>
             <option value="jawa tengah">Jawa Tengah</option>
-          </select>
+          </select> */}
+          <input
+            type="text"
+            placeholder="Provinsi"
+            className="border p-1 px-2 w-full rounded"
+          />
         </div>
       </div>
       <div className="flex mb-4 items-center">

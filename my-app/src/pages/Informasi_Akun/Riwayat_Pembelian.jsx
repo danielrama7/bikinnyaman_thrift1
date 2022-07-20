@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const dataDummy2 = [
   {
@@ -62,7 +63,13 @@ function Riwayat_Pembelian() {
                   </div>
                 </td>
                 <td>
-                  <div className="flex items-center justify-center">ULASAN</div>
+                  <div className="flex items-center justify-center">
+                    <NavLink to="/ulasan">
+                      <button className="bg-[#d0cba0] py-1 px-2 rounded text-white font-bold">
+                        Beri Ulasan
+                      </button>
+                    </NavLink>
+                  </div>
                 </td>
               </tr>
             ))}

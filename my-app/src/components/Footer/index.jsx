@@ -4,13 +4,9 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <div className="">
-      <footer id="footer" class="relative z-50 bg-[#282517]">
-        <div
-          tabindex="0"
-          aria-label="footer"
-          class="focus:outline-none border-t border-b border-gray-200 dark:border-gray-700 py-16"
-        >
-          <div class="mx-auto container px-4 xl:px-12 2xl:px-4">
+      <footer id="footer" class="relative bg-[#282517] py-10">
+        <div>
+          <div class="mx-auto container px-4 xl:px-12">
             <div class="lg:flex">
               <div class="w-full lg:w-1/2 mb-16 lg:mb-0 flex">
                 <div class="w-full lg:w-1/2 px-6">
@@ -21,28 +17,28 @@ function Footer() {
                       </span>
                     </li>
                     <li>
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="http://localhost:3000/tentangKami"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/tentangKami"
                       >
                         Tentang Kami
-                      </a>
+                      </NavLink>
                     </li>
                     <li class="mt-6">
                       <NavLink
-                        className="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
+                        className="text-xs lg:text-sm text-gray-50"
                         to="/syaratKetentuan"
                       >
                         Syarat & Ketentuan
                       </NavLink>
                     </li>
                     <li class="mt-6">
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-50 dark:text-gray-50"
-                        href="http://localhost:3000/kebijakanPrivasi"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/kebijakanPrivasi"
                       >
                         Kebijakan Privasi
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -54,36 +50,36 @@ function Footer() {
                       </span>
                     </li>
                     <li>
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="javascript:void(0)"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/faq"
                       >
                         FAQ
-                      </a>
+                      </NavLink>
                     </li>
                     <li class="mt-6">
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="http://localhost:3000/kebijakanPengembalian"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/kebijakanPengembalian"
                       >
                         Kebijakan Pengembalian
-                      </a>
+                      </NavLink>
                     </li>
                     <li class="mt-6">
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="http://localhost:3000/kontakKami"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/kontakKami"
                       >
                         Kontak Kami
-                      </a>
+                      </NavLink>
                     </li>
                     <li class="mt-6">
-                      <a
-                        class="focus:outline-none focus:underline text-xs lg:text-sm leading-none hover:text-brand text-gray-50"
-                        href="http://localhost:3000/caraPemesanan"
+                      <NavLink
+                        className="text-xs lg:text-sm text-gray-50"
+                        to="/caraPemesanan"
                       >
                         Cara Pemesanan
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -91,7 +87,7 @@ function Footer() {
               <div class="w-full lg:w-1/2 flex">
                 <div class="w-full lg:w-1/2 px-6 flex flex-col">
                   <span class="focus:outline-none focus:underline text-xl lg:text-xl leading-none text-gray-50 mb-5">
-                    Bantuan
+                    Kontak Kami
                   </span>
                   <div class="flex items-center mb-6">
                     <a aria-label="Github" href="javascript:void(0)">

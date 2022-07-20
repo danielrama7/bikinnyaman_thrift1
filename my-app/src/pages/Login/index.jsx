@@ -39,12 +39,14 @@ function Login() {
               placeholder="password"
             />
           </div>
-          <button
-            type="submit"
-            class="w-full mt-6 bg-[#282517] rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold"
-          >
-            Masuk
-          </button>
+          <NavLink to="/homePage">
+            <button
+              type="submit"
+              class="w-full mt-6 bg-[#282517] rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold"
+            >
+              Masuk
+            </button>
+          </NavLink>
           <div class="flex flex-row pt-3 text-[14px]">
             <p>Belum punya akun?</p>
             <NavLink to="/register">

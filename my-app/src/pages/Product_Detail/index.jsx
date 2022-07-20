@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import product1 from "../../img/product1.jpg";
-import product2 from "../../img/bajupp.jpg";
+import product2 from "../../img/product1.1.jpg";
+import product3 from "../../img/product1.2.jpg";
+import product4 from "../../img/product1.3.jpg";
 
-const miniImg = [product1, product2, product1, product2];
+const miniImg = [product1, product2, product3, product4];
 function Product_Detail() {
   const [activeImg, setActiveImg] = useState(product1);
 
