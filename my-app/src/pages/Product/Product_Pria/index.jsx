@@ -1,9 +1,9 @@
 import React from "react";
-import product1 from "../../img/product1.jpg";
+import product1 from "../../../img/product1.jpg";
 import Dropdown from "./dropdown";
 import { NavLink } from "react-router-dom";
 
-function Product() {
+function Product_Pria() {
   return (
     <div className="bg-[#F6F6F6]">
       <div className="flex bg-white h-[304px] items-center justify-center">
@@ -14,7 +14,7 @@ function Product() {
         <div className="flex space-x-7">
           <div className="w-[270px]">
             <div className="flex items-center h-12 font-bold text-3xl mb-7">
-              PAKAIAN WANITA
+              PAKAIAN PRIA
             </div>
             <div className="bg-white h-[216px] mb-7 px-5">
               <div className="flex items-center bg-white h-12 font-bold">
@@ -37,7 +37,7 @@ function Product() {
             </div>
             <div className="grid grid-cols-3 gap-7">
               <NavLink to="/productDetail">
-                <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+                <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                   <div className="h-64">
                     <img src={product1} alt="" className="object-cover" />
                   </div>
@@ -49,7 +49,7 @@ function Product() {
                   </div>
                 </div>
               </NavLink>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -60,7 +60,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -71,7 +71,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -82,7 +82,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -93,7 +93,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -104,7 +104,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -115,7 +115,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -126,7 +126,7 @@ function Product() {
                   <p className="font-bold">Rp. 50.000</p>
                 </div>
               </div>
-              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 w-[272px] p-4">
+              <div className="bg-white hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 w-[272px] p-4 rounded">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>
@@ -195,4 +195,4 @@ function Product() {
   );
 }
 
-export default Product;
+export default Product_Pria;

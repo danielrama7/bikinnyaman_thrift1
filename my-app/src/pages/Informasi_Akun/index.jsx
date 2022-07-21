@@ -7,9 +7,7 @@ function Informasi_Akun() {
     <div className="bg-[#F6F6F6] pb-10">
       <div className="flex bg-white h-[304px] items-center justify-center">
         <img src={product1} alt="" className="object-cover h-full w-full" />
-        <h1 className="text-5xl font-bold absolute text-white">
-          Informasi Akun
-        </h1>
+        <h1 className="text-5xl font-bold absolute text-white">Akun</h1>
       </div>
       <div className="mx-40 mt-12 p-3">
         <div className="flex">

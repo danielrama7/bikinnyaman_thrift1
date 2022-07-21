@@ -36,16 +36,16 @@ function Home_Page() {
         </div>
         <h1 className="text-3xl font-bold text-center mb-8">Produk Kami</h1>
         <h1 className="text-xl font-bold mb-4">Pakaian Wanita</h1>
-        <div className="mb-12">
+        <div className="mb-12 w-full">
           <Swiper
             slidesPerView={4}
-            spaceBetween={16}
+            spaceBetween={4}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper"
+            className="mySwiper1"
           >
             <SwiperSlide>
-              <div className="rounded-lg hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-700 h-[360px] w-72 p-4">
+              <div className="rounded-lg hover:shadow-[3px_10px_35px_-5px_rgba(0,0,0,0.2)] duration-500 h-[360px] w-72 p-4">
                 <div className="h-64">
                   <img src={product1} alt="" className="object-cover" />
                 </div>

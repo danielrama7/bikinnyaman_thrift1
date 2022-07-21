@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Register() {
   return (
-    <div class="h-screen bg-indigo-50 flex justify-center">
-      <div class="lg:w-2/6 md:w-1/2 w-2/3 pt-20">
+    <div class="bg-indigo-50 flex justify-center">
+      <div class="lg:w-2/6 md:w-1/2 w-2/3 py-20">
         <form class="bg-white p-10 rounded-lg shadow-lg min-w-full">
           <h1 class="text-center text-2xl mb-6 text-gray-800 font-bold">
             Daftar
